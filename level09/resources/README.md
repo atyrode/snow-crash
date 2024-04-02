@@ -130,7 +130,7 @@ J'imagine donc qu'il est question d'utiliser à la fois le binaire, et sa capaci
 Dans la mesure où les deux éléments sont impliqués et qu'une transformation vers l'avant ne fonctionne pas. Je tente donc une transformation en arrière en appliquant la même logique que le binaire fournis, au travers d'une commande utilisant `python -c` :
 
 ```python
-python -c "import sys; print ''.join(chr(ord(c) - i) for i, c in enumerate(sys.argv[1]))" $(cat token)
+python -c "import sys; print ''.join(chr(ord(c) - i) for i, c in enumerate(sys.argv[1]))"
 ```
 
 Ce qui correspond à exécuter le script Python 2.0 suivant :
