@@ -1,6 +1,7 @@
 Tout d'abord j'identifie où je me trouve :
 
-```$ pwd
+```
+$ pwd
 /home/user/level00
 ```
 
